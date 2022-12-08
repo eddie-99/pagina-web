@@ -1,3 +1,6 @@
+
+
+//Primero se crea un objeto Javascript con el nombre data
 let data = [
     {
         id: "tt5727208",
@@ -45,3 +48,21 @@ let data = [
         calificacion: 9.1
     }
 ];
+
+//Segundo, se almacena el objeto en el localStorage.
+localStorage.setItem('data', JSON.stringify(data));
+
+
+//Tercero, se obtienen los valores del localStorage y se guardan en una variable.
+let datos = JSON.parse(localStorage.getItem("data"));
+
+//Cuarto, se recorren los elementos y se muestran en el html
+datos.forEach(element => {
+    let elements = document.getElementById("elements");
+    let div = document.createElement("div");
+    div.innerHTML = element.id + " " + element.titulo + 
+    " " + element.director + " " + element.anioDeEstreno +
+    " " + element.paisDeOrigen + " " + element.generos +
+    " " + element.calificacion;
+    elements.appendChild(div);
+});
