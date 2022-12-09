@@ -105,13 +105,13 @@ body{
 /*Características*/
 
 .cont-ps{
-    height: 870px;
+    height: 950px;
     border: thin solid black;
     padding: 1rem;
 }
 
 .cont-ficha{
-    height: 1200px;
+    height: 1100px;
     border: thin solid black;
     padding: 1rem;
 }
@@ -154,12 +154,17 @@ body{
 
 .score-title{
     text-align: center;
-    margin: 70px;
+    margin: 20px;
 }
 
 .elementos-title{
     text-align: center;
-    margin: 70px;
+    margin: 20px;
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
 }
 
 .tarjeta > .titulo{
