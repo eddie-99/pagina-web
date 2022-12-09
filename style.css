@@ -104,16 +104,31 @@ body{
 
 /*Características*/
 
-.cont-carac{
-    height: 500px;
+.cont-ps{
+    height: 870px;
+    border: thin solid black;
+    padding: 1rem;
+}
+
+.cont-ficha{
+    height: 1200px;
+    border: thin solid black;
+    padding: 1rem;
 }
 
 .contenedor-caracteristicas{
     padding: 0px;
 }
 
-.car-1, .car-2, .car-3{
-    margin: 70px;
+.car-1, .car-2, .car-3, .car-4, .car-5{
+    display: inline-block;
+    background-color: black;
+    color: yellow;
+    margin: 1rem;
+}
+
+.car-1, .car-2, .car-3, .car-4, .car-5 figcaption{
+    padding: 1rem;
 }
 
 
@@ -138,6 +153,11 @@ body{
 }
 
 .score-title{
+    text-align: center;
+    margin: 70px;
+}
+
+.elementos-title{
     text-align: center;
     margin: 70px;
 }

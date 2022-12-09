@@ -30,7 +30,7 @@ let data = [
         calificacion: 7.0
     },
     {
-        id: "ttt0903747",
+        id: "tt0903747",
         titulo: "Breaking Bad",
         director: "Vince Gilligan",
         anioDeEstreno: 2008,
@@ -58,11 +58,11 @@ let datos = JSON.parse(localStorage.getItem("data"));
 
 //Cuarto, se recorren los elementos y se muestran en el html
 datos.forEach(element => {
-    let elements = document.getElementById("elements");
-    let div = document.createElement("div");
-    div.innerHTML = element.id + " " + element.titulo + 
-    " " + element.director + " " + element.anioDeEstreno +
-    " " + element.paisDeOrigen + " " + element.generos +
-    " " + element.calificacion;
-    elements.appendChild(div);
+    let elements = document.getElementById("elementos");
+    let li = document.createElement("li");
+    li.innerHTML = "id: " + element.id + "<br/>" + "titulo: " + element.titulo +
+    "<br/>" + "director: " + element.director + "<br/>" + "año: " + element.anioDeEstreno + 
+    "<br/>" + "pais: " + element.paisDeOrigen + "<br/>" + "generos: " + element.generos +
+    "<br/>" + "calificación IMDb: " + element.calificacion + "<br/>" + "<br/>";
+    elements.appendChild(li);
 });
