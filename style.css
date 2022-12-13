@@ -110,8 +110,8 @@ body{
 
 .cont-ficha{
     height: 1480px;
-    padding: 1rem;
-    border: 50px solid #000;
+    padding: 0.5rem;
+    border: 30px solid #000;
     border-radius: 50px;
     margin-bottom: 2rem;
 }
