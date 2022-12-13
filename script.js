@@ -69,9 +69,12 @@ let datos = JSON.parse(localStorage.getItem("data"));
 datos.forEach(element => {
     let elements = document.getElementById("elementos");
     let li = document.createElement("li");
-    li.innerHTML = "id: " + element.id + "<br/>" + "titulo: " + element.titulo +
-    "<br/>" + "director: " + element.director + "<br/>" + "año: " + element.anioDeEstreno + 
-    "<br/>" + "pais: " + element.paisDeOrigen + "<br/>" + "generos: " + element.generos +
-    "<br/>" + "calificación IMDb: " + element.calificacion + "<br/>" + "<br/>";
+    li.innerHTML = "• ID: " + element.id + "<br/>" + "• Titulo: " + element.titulo +
+    "<br/>" + "• Director: " + element.director + "<br/>" + "• Año: " + element.anioDeEstreno + 
+    "<br/>" + "• Pais: " + element.paisDeOrigen + "<br/>" + "• Generos: " + element.generos +
+    "<br/>" + "• Calificación IMDb: " + element.calificacion + "<br/>" + "<br/>";
+    li.style.fontSize = "20px";
+    li.style.fontFamily = "Cursive";
+    elements.style.padding = "50px";
     elements.appendChild(li);
 });
