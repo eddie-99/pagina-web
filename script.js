@@ -46,6 +46,15 @@ let data = [
         paisDeOrigen: ["USA"],
         generos: ["Animation", "Adventure", "Comedy"],
         calificacion: 9.1
+    },
+    {
+        id: "tt2560140",
+        titulo: "Attack on Titan",
+        director: "Hajime Isayama",
+        anioDeEstreno: 2013,
+        paisDeOrigen: ["Japón"],
+        generos: ["Animation", "Adventure", "Action"],
+        calificacion: 9.0
     }
 ];
 
