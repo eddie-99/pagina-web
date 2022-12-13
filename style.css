@@ -102,7 +102,7 @@ body{
 }
 
 
-/*Características*/
+/*Ficha técnica*/
 
 .cont-ps{
     height: 950px;
@@ -116,14 +116,14 @@ body{
     padding: 1rem;
 }
 
-.contenedor-caracteristicas{
+.contenedor-pel{
     padding: 0px;
 }
 
 .car-1, .car-2, .car-3, .car-4, .car-5{
     display: inline-block;
     background-color: black;
-    color: yellow;
+    color: rgb(255, 255, 255);
     margin: 1rem;
 }
 
@@ -131,8 +131,18 @@ body{
     padding: 1rem;
 }
 
+.elementos-title{
+    text-align: center;
+    margin: 20px;
+}
 
-/*Tarjeta*/
+.title{
+    text-align: center;
+    margin: 20px;
+}
+
+
+/*Score*/
 
 .cuadro{
     display: flex;
@@ -153,16 +163,6 @@ body{
 }
 
 .score-title{
-    text-align: center;
-    margin: 20px;
-}
-
-.elementos-title{
-    text-align: center;
-    margin: 20px;
-}
-
-.title{
     text-align: center;
     margin: 20px;
 }
